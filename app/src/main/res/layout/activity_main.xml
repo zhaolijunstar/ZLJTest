@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <Button
+        android:id="@+id/collect_frequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_marginBottom_test"
+        android:layout_marginLeft="@dimen/layout_marginLeft_test"
+        android:layout_marginRight="@dimen/layout_marginRight_test"
+        android:layout_marginTop="@dimen/layout_marginTop_test"
+        android:background="@drawable/test_button"
+        android:text="采集频率"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_test" />
+
+    <Button
+        android:id="@+id/start_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_marginBottom_test"
+        android:layout_marginLeft="@dimen/layout_marginLeft_test"
+        android:layout_marginRight="@dimen/layout_marginRight_test"
+        android:layout_marginTop="@dimen/layout_marginTop_test"
+        android:background="@drawable/test_button"
+        android:text="开始测试"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_test" />
+
+    <Button
+        android:id="@+id/data_compare_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_marginBottom_test"
+        android:layout_marginLeft="@dimen/layout_marginLeft_test"
+        android:layout_marginRight="@dimen/layout_marginRight_test"
+        android:layout_marginTop="@dimen/layout_marginTop_test"
+        android:background="@drawable/test_button"
+        android:text="数据对比"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_test" />
+
+</LinearLayout>
